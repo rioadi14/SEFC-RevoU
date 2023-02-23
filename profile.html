@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="shortcut icon" href="assets/img/logo/kamen_rider_zaia_by_markolios_dek2hyf-fullview.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/profile.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <span class="navbar-toggle" id="js-navbar-toggle">
+                    <i class="fas fa-bars"></i>
+                </span>
+                <img src="assets/img/logo/zaialogo.webp" alt="" 
+                        class="logo" width="100" height="40"/>
+                <ul class="main-nav" id="js-menu">
+                    <li>
+                        <a href="index.html" class="nav-links">Home</a>
+                    </li>
+                    <li>
+                        <a href="profile.html" class="nav-links">Our Profile</a>
+                    </li>
+                    <li>
+                        <a href="#portofolio" class="nav-links">Portofolio</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav-links">About</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="banner">
+            <div class="container" >
+                <div class="banner" >
+                    <div class="banner-img" id="about">
+                        <img src="assets/img/banner.jpg" alt="">
+                    </div>
+                    <div class="banner-text">
+                        <h1 >About Us</h1>
+                        <p>ZAIA Enterprise Japan alternatively referred to as ZAIA Japan or simply 
+                            ZAIA, was a subsidiary of ZAIA Enterprise based in Japan. In addition to 
+                            marketing products for civilians, they were also a weapons developer.</p>
+                        <p>ZAIA Japan was involved with the production of the prototype Humagears. 
+                            We also supply A.I.M.S. with their equipment and Progrisekeys.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="vis-mis" id="vis-mis">
+            <div class="container">
+                    <div id="vision" class="vision">
+                        <div class="vision-head">
+                            <img src="assets/img/vision.png" alt="">
+                            <h1 class="vision-title">Our Vision</h1>
+                            <span class="vm-text">To be a global leader in robotics, creating innovative and intelligent machines that empower people and transform industries.</span>
+                        </div>
+                    </div>
+            </div>
+            <div class="container">
+                <div id="mission" class="mission">
+                    <div class="mission-head">
+                        <img src="assets/img/mission.png" alt="">
+                        <h1 class="mission-title">Our Missions</h1>
+                        <span class="vm-text">Our mission is to develop and deliver cutting-edge robotic technologies that make a positive 
+                            impact on society. We strive to push the boundaries of what is possible with robotics,
+                            by creating intelligent machines that are reliable, safe, and efficient. Our goal is to help businesses 
+                            and individuals enhance their productivity, improve their quality of life, and achieve their full potential 
+                            with the help of our robots. We are committed to delivering exceptional value to our customers, by providing 
+                            them with the highest quality products and services, and building long-lasting relationships based on trust, 
+                            transparency, and mutual respect.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <img src="assets/img/logo/logo.png" width="40" height="40" alt="">
+        <h4>Created By Rio A @ RevoU</h4>
+    </footer>
+    <script>
+        let mainNav = document.getElementById('js-menu');
+        let navBarToggle = document.getElementById('js-navbar-toggle');
+
+        navBarToggle.addEventListener('click', function () {
+        mainNav.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
